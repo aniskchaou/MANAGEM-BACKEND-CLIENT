@@ -101,14 +101,16 @@ routerr.delete("/api/team", teamController.deleteAll);
 routerr.post("/api/user/login", userController.login);
 
 //Home
+/*
 routerr.get('/about', indexController.getAbout)
 routerr.get('/blog', indexController.getBlog)
 routerr.get('/contact', indexController.getContact)
 routerr.get('/elements', indexController.getElements)
-routerr.get('/', indexController.getHome)
 routerr.get('/opening', indexController.getOpeningHours)
 routerr.get('/pricing', indexController.getPricing)
 routerr.get('/services', indexController.getServices)
+*/
+routerr.get('/', indexController.getHome)
 
 routerr.get("/api/count/project/all", projectController.findAllNumber);
 routerr.get("/api/count/project/todo", projectController.findToDo);
