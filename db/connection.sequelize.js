@@ -1,5 +1,5 @@
 
-module.exports = {
+/*module.exports = {
     HOST: "localhost",
     USER: "postgres",
     PASSWORD: "admin",
@@ -14,7 +14,7 @@ module.exports = {
         idle: 10000
     }
 };
-/*
+*/
 module.exports = {
     HOST: "ec2-54-87-179-4.compute-1.amazonaws.com",
     USER: "wqbtevhnndpnvn",
@@ -30,4 +30,4 @@ module.exports = {
         idle: 10000
     }
 };
-*/
+
