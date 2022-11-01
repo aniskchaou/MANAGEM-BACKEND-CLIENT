@@ -109,9 +109,8 @@ routerr.get('/elements', indexController.getElements)
 routerr.get('/opening', indexController.getOpeningHours)
 routerr.get('/pricing', indexController.getPricing)
 routerr.get('/services', indexController.getServices)
-*/
 routerr.get('/', indexController.getHome)
-
+*/
 routerr.get("/api/count/project/all", projectController.findAllNumber);
 routerr.get("/api/count/project/todo", projectController.findToDo);
 routerr.get("/api/count/project/inprogress", projectController.findInProgress);
