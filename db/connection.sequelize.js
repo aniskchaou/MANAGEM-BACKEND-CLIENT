@@ -23,6 +23,7 @@ module.exports = {
     dialect: "postgres",
     port: 5432,
     native: false,
+    ssl: true,
     pool: {
         max: 5,
         min: 0,
